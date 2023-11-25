@@ -5,6 +5,10 @@ function Filter() {
   const [filter, setFilter] = useState(true);
   const [open, setOpen] = useState([]);
 
+  function changeFilter() {
+    setFilter(!filter);
+  }
+
   return (
     <div>
       <div className="filter">
