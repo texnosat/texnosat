@@ -1,0 +1,158 @@
+nav {
+    background-color: #037F64;
+}
+
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: transparent;
+}
+
+.catalog  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    width: 300px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+}
+
+.search i:hover {
+    color: #F05336;
+}
+
+.location {
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 22px;
+}
+
+.location:hover {
+    color: #F05336;
+}
+
+select {
+    border-radius: 12px;
+}
+
+option {
+    border-radius: 12px;
+}
+
+.input-product {
+    border-radius: 12px;
+}
+
+.effect {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    width: 95px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.effect i:hover {
+    color: #f05336;
+}
+
+.effect.effect-4 {
+    transition: all 0.2s linear 0s;
+}
+
+.effect.effect-4:before {
+    content: "Yeni elan";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: scale(0, 1);
+    transition: all 0.2s linear 0s;
+    margin-left: 20px;
+}
+.effect.effect-4:hover:before {
+    transform: scale(1, 1);
+    text-indent: 0;
+}
+
+.effect-login {
+    margin-top: 10px;
+    text-decoration: none;
+    width: 100px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.effect-login i:hover {
+    color: #f05336;
+}
+
+.effect-register {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    width: 115px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.effect-register i:hover {
+    color: #f05336;
+}
+
+.search-mobile {
+    display: none;
+}
+
+.catalog-icon {
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+.mobile-add-product {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .search {
+        display: none;
+    }
+
+    .search-mobile {
+        display: block;
+        position: relative;
+        border: 1px solid #037F64;
+        border-radius: 12px;
+    }
+
+    .search-mobile input {
+        width: 100%;
+    }
+        
+    .search-icon {
+        position: absolute;
+        top: 12px;
+        right: 14px;
+    }
+    
+    .search i:hover {
+        color: #F05336;
+    }
+
+    .mobile-add-product {
+        display: inline-block;
+    }
+
+    .effect.effect-4:before  {
+        display: none;
+    }
+}

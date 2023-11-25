@@ -1,0 +1,192 @@
+{
+    "products": [
+      {
+        "id": 0,
+        "category": "Telefonlar",
+        "imageUrl": [
+            { 
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsnrI9CCENBFcQ802QAKhh41PgkfsT_mVjY__0XyZTLov_ppVoTVs8GjLumduOCs15YKk&usqp=CAU"
+            },
+            {
+                "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-select-202207-blue?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693063678624"
+            },
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-9awxPofSJtR574sT7T5WMvtfVcxNu9_yY4pF4FqaIOPtxCdKEhm2KFfeDM6Gro-m9hg&usqp=CAU"
+            }
+        ],
+        "title": "Iphone",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem architecto error, eaque velit saepe qui reiciendis dolorum corporis quaerat tempore. Dignissimos cupiditate dolor, sapiente sed rerum expedita vitae ab! Sed corporis blanditiis voluptatem doloribus neque fugiat nam necessitatibus dolorem est odit, rem alias velit ad maxime ea delectus numquam asperiores?",
+        "price": 1499,
+        "vip": false,
+        "color" : "Black",
+        "date": "23.02.2023",
+        "phone": "(050)-555-55-55"
+      },
+      {
+        "id": 1,
+        "category": "Saat",
+
+        "imageUrl": [
+            { 
+                "url": "https://www.cnet.com/a/img/resize/7ee4c4356006305a4107e61641a2edd48c0cf937/hub/2022/12/16/11c5ee0a-5c4b-4384-9ec7-cd8dc0b977db/smart.jpg?auto=webp&fit=crop&height=675&width=1200"
+            },
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cU-1Usoes7DNG1DF-nmwnotebebknUDrCCLOVeHK-KEjsSjzeKK4l4tRKuaCwSZM-so&usqp=CAU"
+            }
+        ],
+        "title": "Smart Watch",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem architecto error, eaque velit saepe qui reiciendis dolorum corporis quaerat tempore. Dignissimos cupiditate dolor, sapiente sed rerum expedita vitae ab! Sed corporis blanditiis voluptatem doloribu",
+        "price": 99,
+        "vip": false,
+        "date": "20.02.2023",
+        "phone": "(050)-211-11-11"
+      },
+      {
+        "id": 2,
+        "category": "TV",
+
+        "imageUrl": [
+            { 
+                "url": "https://www.lg.com/in/images/tvs/md07548849/gallery/32LQ635BPSA-D-03.jpg"
+            },
+            {
+                "url": "data:image/jpeg;base64,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"
+            }
+        ],
+        "title": "LG",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem architecto error, eaque velit saepe qui reiciendis dolorum corporis quaerat tempore. Dignissimos cupiditate dolor, sapiente sed rerum expedita vitae ab! Sed corporis blanditiis voluptatem doloribu",
+        "price": 2399,
+        "vip": true,
+        "date": "11.08.2023",
+        "phone": "(055)-498-26-30"
+      },
+      {
+        "id": 3,
+        "category": "Telefonlar",
+        "imageUrl": [
+            { 
+                "url": "https://fdn.gsmarena.com/imgroot/reviews/23/xiaomi-redmi-note-12-pro/lifestyle/-1200w5/gsmarena_016.jpg"
+            },
+            {
+                "url": "https://www.tilifony.com/content/media/small/e79fabe1-xiaomi-redmi-12-colors.jpg"
+            }
+        ],
+        "title": "Redmi Note 12",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem architecto error, eaque velit saepe qui reiciendis dolorum corporis quaerat tempore.",
+        "price": 1199,
+        "vip": false,
+        "date": "21.10.2023",
+        "phone": "(051)-211-44-55"
+      }, 
+      {
+        "id": 4,
+        "category": "Saat",
+        "imageUrl": [
+            { 
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHBGHcGD2x-O9LkzRlTOWnG6pl2XJ9L0G2ygMllESRo9Rhc3K4MQp2WTDctGQFwPNGLNg&usqp=CAU"
+            }
+        ],
+        "title": "Apple Watch 8",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem architecto error, eaque velit saepe qui reiciendis dolorum corporis quaerat tempore. Dignissimos cupiditate dolor, sapiente sed rerum expedita vitae ab! Sed corporis blanditiis voluptatem doloribus neque fugiat nam necessitatibus dolorem est odit, rem alias velit ad maxime ea delectus numquam asperiores. Dignissimos cupiditate dolor, sapiente sed rerum expedita vitae ab! Sed corporis blanditiis voluptatem doloribus neque fugiat nam necessitatibus dolorem est odit, rem alias velit ad maxime ea delectus numquam asperiores",
+        "price": 99,
+        "vip": false,
+        "date": "20.02.2023",
+        "phone": "(050)-211-11-11"
+      },
+      {
+        "id": 5,
+        "category": "Telefonlar",
+
+        "imageUrl": [
+            { 
+                "url": "https://s.yimg.com/uu/api/res/1.2/KQ.WYoseV8nx0eh16GGoVg--~B/Zmk9ZmlsbDtoPTQzODt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2019-09/7e257820-d832-11e9-befd-69226dd6b94b.cf.jpg"
+            },
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6C3PswlPI2_mb4pIEoBw3ia6eG55XRzogV9ONi_6U9gpJc3w730BNxs0eyjviaU4FJ7I&usqp=CAU"
+            },
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvNOvswGKNTaulWhTnEt7im50QsxXC3ZoEAVYpBo7y-mXBdenlZo9_iZokM73uLmmW-x0&usqp=CAU"
+            }
+        ],
+        "title": "Iphone 11",
+        "description": "Lorem ipsum dolor sit amet",
+        "price": 99,
+        "vip": false,
+        "date": "20.02.2023",
+        "phone": "(050)-211-11-11"
+      },
+      {
+        "id": 6,
+        "category": "Telefon aksesuarları",
+
+        "imageUrl": [
+            { 
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7aAUwNaYakujaUjDISRJ1Hvue-5IOSo8iDw&usqp=CAU"
+            }
+        ],
+        "title": "USB",
+        "description": "Dignissimos cupiditate dolor, sapiente sed rerum expedita vitae ab! Sed corporis blanditiis voluptatem doloribus neque fugiat nam necessitatibus dolorem est odit, rem alias velit ad maxime ea delectus numquam asperiores",
+        "price": 15,
+        "vip": false,
+        "date": "20.11.2023",
+        "phone": "(077)-727-22-11"
+      },
+      {
+        "id": 7,
+        "category": "Laptop",
+
+        "imageUrl": [
+            { 
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlbE9t561mQhnQgYe5VQ7ozPmn_q9PK35BPW028RdU015rJcjmVL8bOpq50F2MqMhXqTk&usqp=CAU"
+            },
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNSDTKoYgtQWGWrOyDDNEj2_Zy2wg7ppIhj7Ve7S7dj9Fdv2PTd3NozFISLaO7uT7l8E&usqp=CAU"
+            }
+        ],
+        "title": "Noutbuk",
+        "description": "Dignissimos cupiditate dolor, sapiente sed rerum expedita vitae ab! Sed corporis blanditiis voluptatem doloribus neque fugiat nam necessitatibus dolorem est odit, rem alias velit ad maxime ea delectus numquam asperiores",
+        "price": 2199,
+        "vip": true,
+        "date": "30.10.2023",
+        "phone": "(050)-211-11-11"
+      },
+      {
+        "id": 8,
+        "category": "Oyun kosnolları",
+
+        "imageUrl": [
+            { 
+                "url": "https://i.ebayimg.com/images/g/3b4AAOSw4oFkWU~3/s-l400.jpg"
+            },
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4DBtdPuSR5touWVNmExzOc78hh_D_7M9hG2nZcxlUWMHjYCXmROjVRr599IGnsoMHRmc&usqp=CAU" 
+            }
+        ],
+        "title": "Playstation 5",
+        "description": "Dignissimos cupiditate dolor, sapiente sed rerum expedita vitae ab! Sed corporis blanditiis voluptatem doloribus neque fugiat nam necessitatibus dolorem est odit, rem alias velit ad maxime ea delectus numquam asperiores",
+        "price": 999,
+        "vip": false,
+        "date": "20.02.2023",
+        "phone": "(050)-211-11-11" 
+      },
+      {
+        "id": 9,
+        "category": "Laptop",
+
+        "imageUrl": [ 
+            { 
+                "url": "data:image/jpeg;base64,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"
+            },
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc8rzUjNV2tAfGGU0mSH9NVkRo0KlvAlU4E1THfHgnp3Fbo6Pg3WxOANBDRqGABYi8MWw&usqp=CAU"
+            }
+        ],
+        "title": "Macbook Pro 13",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam nihil porro eos optio accusamus ut.",
+        "price": 2399,
+        "vip": false,
+        "date": "04.11.2023",
+        "phone": "(050)-211-11-11"
+      }
+    ]
+  }

@@ -1,0 +1,38 @@
+.choose-price {
+    border: 1px solid #037f64;
+    width: 100px;
+}
+
+.btn-select {
+    border-color: transparent;
+    background-color: #037f64;
+    color: white;
+}
+
+.btn-select:hover{ 
+    background-color: white;
+    color: #037f64;
+}
+
+select {
+    padding: 4px 10px;
+}
+
+.mobile-filter {
+    display: none;
+}
+
+@media (max-width:700px) {
+    .filter {
+        display: none;
+    }
+    .mobile-filter {
+        display: block;
+        color: #037f64;
+        /* font-size: 24px; */
+    }
+
+    .mobile-filter i {
+        font-size: 24px;
+    }
+}

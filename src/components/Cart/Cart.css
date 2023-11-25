@@ -1,0 +1,109 @@
+.blog-card {
+    box-sizing: border-box;
+    margin: 2rem auto;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+.blog-card:hover {
+    transform: scale(1.03);
+}
+.blog-card img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+.blog-content {
+    background-color: #f5fafa;
+    padding: 12px;
+}
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.author img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+    border: 1px solid #a4a0a0;
+}
+.author .time {
+    font-style: italic;
+}
+.author a {
+    text-decoration: none;
+    color: #037f64;
+    font-weight: bold;
+}
+.blog-label {
+    display: inline-block;
+    background-color: #037f64;
+    color: white;
+    border-radius: 15px;
+    padding: 0 1rem;
+}
+.card-img {
+    position: relative;
+}
+.card-img .price {
+    position: absolute;
+    bottom: 0;
+    background-color: #037f64;
+    right: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+}
+.card-crown {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    font-size: 26px;
+    color: #f05336;
+}
+.card-heart {
+    color: red;
+    position: absolute;
+    font-size: 26px;
+    top: 12px;
+    right: 12px;
+}
+
+/* .carousel-control-next {
+    align-items: start;
+    margin-top: 28%;
+} */
+
+ @media (max-width: 700px) {
+    /* .carousel-control-next {
+        align-items: start;
+        margin-top: 28%;
+    } */
+    
+    .blog-card img {
+        height: 150px !important;
+    }
+    .author {
+        margin-top: 0;
+    }
+
+    .blog-content {
+        padding: 2px;
+    }
+} 
+
+@media (max-width: 400px) {
+    .carousel-control-next {
+        align-items: start;
+        margin-top: 47%;
+    }
+
+    
+}

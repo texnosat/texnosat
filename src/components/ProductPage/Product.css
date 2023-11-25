@@ -1,0 +1,8 @@
+.phone-number {
+    background-color: #037f64;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 4px;
+}
